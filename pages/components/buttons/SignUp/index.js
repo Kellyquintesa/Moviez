@@ -15,7 +15,8 @@ export default function SignUp(props) {
         bg-red 
         font-semibold 
         lg:max-w-2xl
-        lg:mx-auto "
+        lg:mx-auto
+        hover:bg-rose-600"
         >
           {title}
         </button>

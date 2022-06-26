@@ -16,8 +16,8 @@ export default function Email() {
           flex  
           "
     >
-      <MdEmail />
-      <input type="text" placeholder=" Email " className="bg-input " />
+      <MdEmail className="mr-4" />
+      <input type="text" placeholder=" Email " className="bg-input w-full " />
     </div>
   );
 }

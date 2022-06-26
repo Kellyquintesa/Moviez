@@ -40,7 +40,22 @@ export default function signIn() {
             <span className="text-xs"> Remember me</span>
           </div>
           <br />
-          <SignUp title="Sign In" />
+          <Link href="/homeMenu">
+            <button
+              className=" 
+        py-3 
+        w-full 
+        block 
+        rounded-full 
+        bg-red 
+        font-semibold 
+        lg:max-w-2xl
+        lg:mx-auto
+        hover:bg-rose-600"
+            >
+              Sign In
+            </button>
+          </Link>
           <br />
           <span className="text-red text-sm ">Forgot the password?</span>
         </div>

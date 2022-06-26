@@ -4,6 +4,7 @@ import { BsPersonCircle } from "react-icons/bs";
 import InputName from "./components/buttons/InputName";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
+import Link from "next/link";
 
 export default function Profile() {
   const [value, setValue] = useState();
@@ -22,9 +23,11 @@ export default function Profile() {
       p-10 
       bg-navy"
       >
-        <div className="flex lg:text-xl  ">
-          <BiArrowBack className="text-2xl mx-2 mb-10 pt-1" />
-          Fill Your Profile
+        <div className="flex lg:text-xl ">
+          <Link href="/signIn">
+            <BiArrowBack className="text-2xl  mb-10 pt-1" />
+          </Link>
+          <span className="ml-3 text-xl font-semibold"> Fill Your Profile</span>
         </div>
         <br />
         <BsPersonCircle
@@ -52,10 +55,10 @@ export default function Profile() {
           px-3
           text-black
           lg:max-w-2xl
-          lg:mx-auto
+          lg:mx-auto 
           "
         />
-        <div className="pt-6">
+        <div className="pt-20">
           <button
             className=" 
         py-3 

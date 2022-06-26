@@ -16,8 +16,12 @@ export default function Password() {
           flex  
           "
     >
-      <AiFillLock />
-      <input type="password" placeholder=" Password" className="bg-input " />
+      <AiFillLock className="mr-4" />
+      <input
+        type="password"
+        placeholder=" Password"
+        className="bg-input w-full"
+      />
     </div>
   );
 }
