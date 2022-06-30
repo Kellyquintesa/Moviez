@@ -2,12 +2,11 @@ import React from "react";
 import Link from "next/dist/client/link";
 import { BiArrowBack } from "react-icons/bi";
 import dynamic from "next/dynamic";
-import SignUp from "./components/buttons/signUp";
 
-export default function forgotPassword() {
+export default function newPin() {
   const ReactCodeInput = dynamic(import("react-code-input"));
   return (
-    <div className=" bg-navy h-screen">
+    <div className="bg-navy h-screen">
       <div
         className="
       container 
@@ -18,40 +17,42 @@ export default function forgotPassword() {
       h-full 
       w-full  
       text-slate-50 
-      p-10 "
+      p-10 
+      bg-navy"
       >
-        {" "}
         <div className="flex lg:text-xl ">
-          <Link href="/signIn">
+          <Link href="/profile">
             <BiArrowBack className="text-2xl  mb-10 pt-1" />
           </Link>
-          <span className="ml-3 text-xl font-semibold"> Reset Password</span>
-        </div>
-        <br /> <br />
-        <br />
-        <span>A reset code has been sent to your email</span>
-        <br />
-        <div className="pt-20">
-          <span>Enter code</span> <br />
-          <br />
-          <ReactCodeInput type="number" fields={4} />
+          <span className="ml-3 text-xl font-semibold"> Create New Pin</span>
         </div>
         <br />
-        <div className="pt-48">
-          <Link href="/successResetPassword">
+        <p className="pt-14   lg:text-2xl ">
+          Add a PIN number to make your account <br /> more secure
+        </p>
+        <br />
+        <div className="pt-10 w-full">
+          <ReactCodeInput type="password" fields={4} />
+        </div>
+        <br />
+        <div className="pt-60">
+          {" "}
+          <Link href="/fingerprint">
             <button
               className=" 
         py-3 
-        w-full 
-        block 
+        w-full
+        text-xs 
+        lg:text-sm
+        lg:max-w-xl
         rounded-full 
-        bg-red 
-        font-semibold 
-        lg:max-w-2xl
-        lg:mx-auto
-        hover:bg-rose-600"
+        font-semibold
+        bg-red
+        hover:bg-rose-600
+        mx-2
+        "
             >
-              Verify
+              Continue
             </button>
           </Link>
         </div>

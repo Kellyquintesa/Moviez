@@ -38,7 +38,7 @@ export default function createPassword() {
             KQ
           </p>
         </div>
-        <div className="pt-16 text-left">
+        <div className="pt-16">
           <span>Create Your New Password</span>
           <br />
           <br />

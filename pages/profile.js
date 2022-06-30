@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Profile() {
   const [value, setValue] = useState();
   return (
-    <div className="bg-navy h-screen">
+    <div className="bg-navy h-screen ">
       <div
         className="
       container 
@@ -58,7 +58,7 @@ export default function Profile() {
           lg:mx-auto 
           "
         />
-        <div className="pt-20">
+        <div className="pt-20 flex justify-center bg-navy">
           <button
             className=" 
         py-3 
@@ -73,8 +73,9 @@ export default function Profile() {
           >
             Skip
           </button>
-          <button
-            className=" 
+          <Link href="/newPin">
+            <button
+              className=" 
         py-3 
         px-11
         text-xs 
@@ -84,9 +85,10 @@ export default function Profile() {
         bg-red
         hover:bg-rose-600
         mx-2"
-          >
-            Continue
-          </button>
+            >
+              Continue
+            </button>
+          </Link>
         </div>
         <br />
       </div>

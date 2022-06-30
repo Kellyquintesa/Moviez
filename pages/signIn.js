@@ -57,7 +57,9 @@ export default function signIn() {
             </button>
           </Link>
           <br />
-          <span className="text-red text-sm ">Forgot the password?</span>
+          <Link href="/forgotPassword">
+            <span className="text-red text-sm ">Forgot the password?</span>
+          </Link>
         </div>
         <br />
         <br />

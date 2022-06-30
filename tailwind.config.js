@@ -13,8 +13,10 @@ module.exports = {
       colors: {
         navy: "#181A20",
         input: "#1F222A",
-        red: "#C1232F",
+        logo: "#C1232F",
         white: "#ffffff",
+        red: "#E21221",
+        fingerprint: "#1F222A",
       },
     },
   },
