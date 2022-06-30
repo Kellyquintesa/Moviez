@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiArrowBack } from "react-icons/bi";
 import { BsPersonCircle } from "react-icons/bs";
-import InputName from "./components/InputName";
+import InputName from "./InputName";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import Link from "next/link";
@@ -59,25 +59,11 @@ export default function Profile() {
           "
         />
         <div className="pt-20 flex justify-center bg-navy">
-          <button
-            className=" 
-        py-3 
-        px-14
-        text-xs 
-        lg:text-sm
-        rounded-full 
-        font-semibold
-        bg-gray-700
-        hover:bg-slate-600
-        mx-2"
-          >
-            Skip
-          </button>
           <Link href="/newPin">
             <button
               className=" 
         py-3 
-        px-11
+        px-40
         text-xs 
         lg:text-sm
         rounded-full 

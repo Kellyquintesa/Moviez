@@ -1,8 +1,7 @@
 import React from "react";
-import Email from "./components/email";
-import Password from "./components/password";
-import SignUp from "./components/signUp";
-import SocialMedia from "./components/socialMedia";
+import Email from "./email";
+import Password from "./password";
+import SocialMedia from "./socialMedia";
 import Link from "next/link";
 import { BiArrowBack } from "react-icons/bi";
 

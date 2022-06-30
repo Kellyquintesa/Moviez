@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import Email from "./components/email";
-import Password from "./components/password";
-import SignUp from "./components/signUp";
-import SocialMedia from "./components/socialMedia";
+import Email from "./email";
+import SignUp from "./signUp";
+import Password from "./Password";
+import SocialMedia from "./socialMedia";
 import { BiArrowBack } from "react-icons/bi";
 
 export default function Home() {
