@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/dist/client/link";
 import { BiArrowBack } from "react-icons/bi";
-import Password from "./components/buttons/password";
+import Password from "./components/password";
 
 export default function createPassword() {
   return (

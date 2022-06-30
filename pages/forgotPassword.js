@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/dist/client/link";
 import { BiArrowBack } from "react-icons/bi";
 import dynamic from "next/dynamic";
-import SignUp from "./components/buttons/signUp";
+import SignUp from "./components/signUp";
 
 export default function forgotPassword() {
   const ReactCodeInput = dynamic(import("react-code-input"));
