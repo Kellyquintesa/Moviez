@@ -14,6 +14,7 @@ export default function homeMenu({ movies }) {
     w-full 
     h-full
     lg:h-[240vh] 
+   
     md:h-full"
     >
       <div className=" w-full bg-navy h-96 lg:h-screen relative ">
@@ -65,7 +66,8 @@ export default function homeMenu({ movies }) {
           font-bold 
           text-xl 
           lg:text-6xl
-          lg:pt-[300px]
+          lg:pt-[400px]
+        
           p-10
           absolute "
         >
