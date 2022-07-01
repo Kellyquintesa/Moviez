@@ -14,9 +14,9 @@ function Movie({ movie }) {
     bg-navy 
     h-full
     pt-6
-    lg:h-full
+    lg:h-screen
     pb-20
-    
+       
     "
       >
         <Link href="/homeMenu">
