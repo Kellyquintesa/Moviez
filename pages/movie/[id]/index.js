@@ -7,12 +7,12 @@ import Link from "next/link";
 function Movie({ movie }) {
   console.log(movie);
   return (
-    <div className="bg-navy lg:h-full">
+    <div className="bg-navy h-screen lg:h-full">
       <div
         className="
     container 
     bg-navy 
-    h-screen 
+    h-full
     pt-6
     lg:h-full
     pb-20
@@ -55,7 +55,7 @@ function Movie({ movie }) {
             >
               {movie.overview}
             </p>
-            <p className="text-slate-600 pt-3 text-xs">
+            <p className="text-slate-600  pt-3 text-xs">
               Release Date: <span>{movie.release_date}</span>
             </p>
           </div>
