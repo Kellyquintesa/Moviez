@@ -12,7 +12,7 @@ export default function homeMenu({ movies }) {
       className="
     bg-navy 
     w-full 
-    h-screen 
+    h-full
     lg:h-full 
     md:h-full"
     >
