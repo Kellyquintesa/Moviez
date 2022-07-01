@@ -65,7 +65,7 @@ export default function homeMenu({ movies }) {
           font-bold 
           text-xl 
           lg:text-6xl
-          lg:pt-[540px]
+          lg:pt-[300px]
           p-10
           absolute "
         >
