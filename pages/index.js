@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
-import Email from "./email";
-import SignUp from "./signUp";
-import Password from "./Password";
-import SocialMedia from "./socialMedia";
+import Email from "./components/Email";
+import SignUp from "./components/SignUp";
 import { BiArrowBack } from "react-icons/bi";
+import Password from "./components/Password";
+import SocialMedia from "./components/SocialMedia";
 
 export default function Home() {
   return (
@@ -56,7 +56,7 @@ export default function Home() {
         <p className="text-xs lg:text-sm ">
           Already have an account?
           <Link href="/signIn">
-            <span className="text-red pb-10"> Sign in</span>
+            <button className="text-red pb-10"> Sign in</button>
           </Link>
         </p>
       </div>

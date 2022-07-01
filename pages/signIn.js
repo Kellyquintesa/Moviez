@@ -1,7 +1,6 @@
-import React from "react";
-import Email from "./email";
-import Password from "./password";
-import SocialMedia from "./socialMedia";
+import Email from "./components/Email";
+import Password from "./components/Password";
+import SocialMedia from "./components/SocialMedia";
 import Link from "next/link";
 import { BiArrowBack } from "react-icons/bi";
 
@@ -57,7 +56,7 @@ export default function signIn() {
           </Link>
           <br />
           <Link href="/forgotPassword">
-            <span className="text-red text-sm ">Forgot the password?</span>
+            <button className="text-red text-sm ">Forgot the password?</button>
           </Link>
         </div>
         <br />
@@ -67,8 +66,8 @@ export default function signIn() {
         <SocialMedia />
         <p className="text-xs lg:text-sm">
           Already have an account?
-          <Link href="/signIn">
-            <span className="text-red"> Sign up</span>
+          <Link href="/">
+            <button className="text-red"> Sign up</button>
           </Link>
         </p>
       </div>

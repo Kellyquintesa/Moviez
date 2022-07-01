@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiArrowBack } from "react-icons/bi";
 import { BsPersonCircle } from "react-icons/bs";
-import InputName from "./InputName";
+import InputName from "./components/InputName";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import Link from "next/link";

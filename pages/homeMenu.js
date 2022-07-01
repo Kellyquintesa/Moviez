@@ -45,7 +45,7 @@ export default function homeMenu({ movies }) {
           >
             KQ
             <Link href="/404">
-              <span>
+              <button>
                 <FiSearch
                   className="
               text-white 
@@ -54,7 +54,7 @@ export default function homeMenu({ movies }) {
               mr-5 
               "
                 />
-              </span>
+              </button>
             </Link>
           </div>
         </div>
