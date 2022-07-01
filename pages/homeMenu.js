@@ -13,7 +13,7 @@ export default function homeMenu({ movies }) {
     bg-navy 
     w-full 
     h-full
-    lg:h-screen 
+    lg:h-[240vh] 
     md:h-full"
     >
       <div className=" w-full bg-navy h-96 lg:h-screen relative ">
