@@ -24,7 +24,7 @@ export default function Profile() {
       bg-navy"
       >
         <div className="flex lg:text-xl ">
-          <Link href="/signIn">
+          <Link href="/SignIn">
             <BiArrowBack className="text-2xl  mb-10 pt-1" />
           </Link>
           <span className="ml-3 text-xl font-semibold"> Fill Your Profile</span>
@@ -59,7 +59,7 @@ export default function Profile() {
           "
         />
         <div className="pt-20 flex justify-center bg-navy">
-          <Link href="/newPin">
+          <Link href="/NewPin">
             <button
               className=" 
         py-3 

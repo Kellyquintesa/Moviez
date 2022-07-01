@@ -32,7 +32,17 @@ export default function Home() {
         </Head>
         <BiArrowBack className="text-2xl" />
         <div id="logo" className="pt-24 text-center">
-          <p className=" text-6xl pb-10 font-bold text-red lg:text-9xl"> KQ</p>
+          <p
+            className=" 
+          text-6xl 
+          pb-10 
+          font-bold 
+          text-red 
+          lg:text-9xl"
+          >
+            {" "}
+            KQ
+          </p>
           <span className="text-2xl font-semibold lg:text-4xl ">
             {" "}
             Create Your Account
@@ -58,7 +68,7 @@ export default function Home() {
         <SocialMedia />
         <p className="text-xs lg:text-sm ">
           Already have an account?
-          <Link href="/signIn">
+          <Link href="/SignIn">
             <button className="text-red pb-10 ml-2"> Sign in</button>
           </Link>
         </p>

@@ -1,9 +1,8 @@
-import React from "react";
 import Link from "next/dist/client/link";
 import { BiArrowBack } from "react-icons/bi";
 import dynamic from "next/dynamic";
 
-export default function newPin() {
+export default function NewPin() {
   const ReactCodeInput = dynamic(import("react-code-input"));
   return (
     <div className="bg-navy h-screen">
@@ -21,7 +20,7 @@ export default function newPin() {
       bg-navy"
       >
         <div className="flex lg:text-xl ">
-          <Link href="/profile">
+          <Link href="/Profile">
             <BiArrowBack className="text-2xl  mb-10 pt-1" />
           </Link>
           <span className="ml-3 text-xl font-semibold"> Create New Pin</span>
@@ -37,7 +36,7 @@ export default function newPin() {
         <br />
         <div className="pt-60">
           {" "}
-          <Link href="/fingerprint">
+          <Link href="/Fingerprint">
             <button
               className=" 
         py-3 

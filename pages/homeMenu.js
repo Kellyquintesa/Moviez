@@ -5,7 +5,7 @@ import PopularMovies from "./PopularMovies";
 import Image from "next/dist/client/image";
 import Link from "next/link";
 
-export default function homeMenu({ movies }) {
+export default function HomeMenu({ movies }) {
   console.log(movies);
   return (
     <div
@@ -14,10 +14,16 @@ export default function homeMenu({ movies }) {
     w-full 
     h-full
     lg:h-[240vh] 
-   
     md:h-full"
     >
-      <div className=" w-full bg-navy h-96 lg:h-screen relative ">
+      <div
+        className=" 
+      w-full 
+      bg-navy 
+      h-96 
+      lg:h-screen 
+      relative "
+      >
         <Image
           src="/images/Poster.png"
           alt="cover"

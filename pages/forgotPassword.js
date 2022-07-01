@@ -1,9 +1,8 @@
-import React from "react";
 import Link from "next/dist/client/link";
 import { BiArrowBack } from "react-icons/bi";
 import dynamic from "next/dynamic";
 
-export default function forgotPassword() {
+export default function ForgotPassword() {
   const ReactCodeInput = dynamic(import("react-code-input"));
   return (
     <div className=" bg-navy h-screen">
@@ -21,7 +20,7 @@ export default function forgotPassword() {
       >
         {" "}
         <div className="flex lg:text-xl ">
-          <Link href="/signIn">
+          <Link href="/SignIn">
             <BiArrowBack className="text-2xl  mb-10 pt-1" />
           </Link>
           <span className="ml-3 text-xl font-semibold"> Reset Password</span>
@@ -37,7 +36,7 @@ export default function forgotPassword() {
         </div>
         <br />
         <div className="pt-48">
-          <Link href="/createPassword">
+          <Link href="/CreatePass">
             <button
               className=" 
         py-3 

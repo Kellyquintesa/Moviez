@@ -3,17 +3,30 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/dist/client/image";
 
-export default function successResetPassword() {
+export default function SuccessResetPassword() {
   const router = useRouter();
 
   useEffect(() => {
     setTimeout(() => {
-      router.push("/homeMenu");
+      router.push("/HomeMenu");
     }, 3000);
   }, [router]);
   return (
-    <div className="bg-navy h-screen grid place-items-center ">
-      <div className=" rounded-3xl bg-fingerprint h-[450px] w-80 mx-auto  ">
+    <div
+      className="
+    bg-navy 
+    h-screen 
+    grid 
+    place-items-center "
+    >
+      <div
+        className="
+      rounded-3xl 
+      bg-fingerprint 
+      h-[450px] 
+      w-80 
+      mx-auto  "
+      >
         <div className="text-center pt-10">
           <Image
             src="/images/Password.png"

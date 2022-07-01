@@ -5,7 +5,7 @@ export default function SignUp(props) {
   const { title } = props;
   return (
     <div>
-      <Link href="/profile">
+      <Link href="/Profile">
         <button
           className=" 
         py-3 

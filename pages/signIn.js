@@ -4,7 +4,7 @@ import SocialMedia from "./components/SocialMedia";
 import Link from "next/link";
 import { BiArrowBack } from "react-icons/bi";
 
-export default function signIn() {
+export default function SignIn() {
   return (
     <div className=" bg-navy">
       <div
@@ -22,7 +22,17 @@ export default function signIn() {
           <BiArrowBack className="text-2xl" />
         </Link>
         <div id="logo" className="pt-24 text-center">
-          <p className=" text-6xl pb-10 font-bold text-red lg:text-9xl"> KQ</p>
+          <p
+            className=" 
+          text-6xl 
+          pb-10 
+          font-bold 
+          text-red 
+          lg:text-9xl"
+          >
+            {" "}
+            KQ
+          </p>
           <span className="text-2xl font-semibold lg:text-4xl ">
             {" "}
             Login to Your Account
@@ -38,7 +48,7 @@ export default function signIn() {
             <span className="text-xs"> Remember me</span>
           </div>
           <br />
-          <Link href="/homeMenu">
+          <Link href="/HomeMenu">
             <button
               className=" 
         py-3 
@@ -55,7 +65,7 @@ export default function signIn() {
             </button>
           </Link>
           <br />
-          <Link href="/forgotPassword">
+          <Link href="/ForgotPassword">
             <button className="text-red text-sm ">Forgot the password?</button>
           </Link>
         </div>

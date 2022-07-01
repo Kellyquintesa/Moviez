@@ -3,7 +3,7 @@ import Link from "next/dist/client/link";
 import { BiArrowBack } from "react-icons/bi";
 import Image from "next/image";
 
-export default function fingerprint() {
+export default function Fingerprint() {
   return (
     <div className="bg-navy h-screen">
       <div
@@ -20,7 +20,7 @@ export default function fingerprint() {
       bg-navy"
       >
         <div className="flex lg:text-xl ">
-          <Link href="/profile">
+          <Link href="/Profile">
             <BiArrowBack className="text-2xl  mb-10 pt-1" />
           </Link>
           <span className="ml-3 text-xl font-semibold">
@@ -46,12 +46,12 @@ export default function fingerprint() {
           <br /> scanner to get started.
         </p>
         <div className="flex justify-center pt-10 ">
-          <Link href="/homeMenu">
+          <Link href="/HomeMenu">
             <button className="mr-3 bg-input py-2 px-11 text-sm font-normal rounded-full">
               Skip
             </button>
           </Link>
-          <Link href="/successFingerprint ">
+          <Link href="/SuccessFingerprint ">
             <button className=" bg-red py-2 px-6 text-sm font-normal rounded-full">
               Continue
             </button>

@@ -19,7 +19,7 @@ function Movie({ movie }) {
        
     "
       >
-        <Link href="/homeMenu">
+        <Link href="/HomeMenu">
           <BiArrowBack className="text-2xl text-white mt-4 mx-7" />
         </Link>
         <div className="px-4 pt-10 w-full ">
