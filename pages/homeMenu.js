@@ -13,10 +13,10 @@ export default function homeMenu({ movies }) {
     bg-navy 
     w-full 
     h-full
-    lg:h-full 
+    lg:h-screen 
     md:h-full"
     >
-      <div className=" w-full h-96 lg:h-screen relative ">
+      <div className=" w-full bg-navy h-96 lg:h-screen relative ">
         <Image
           src="/images/Poster.png"
           alt="cover"

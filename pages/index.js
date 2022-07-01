@@ -14,7 +14,7 @@ export default function Home() {
       container 
       text-center 
       mx-auto 
-      lg:h-screen 
+      lg:h-full
       md:h-screen 
       h-full
       w-full  
