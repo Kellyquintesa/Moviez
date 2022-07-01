@@ -43,7 +43,7 @@ export default function fingerprint() {
         <br />
         <p className="pt-8">
           Please put your finger on the fingerprint
-          <br /> scanner to gett started.
+          <br /> scanner to get started.
         </p>
         <div className="flex justify-center pt-10 ">
           <Link href="/homeMenu">

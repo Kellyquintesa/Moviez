@@ -63,14 +63,16 @@ export default function Profile() {
             <button
               className=" 
         py-3 
-        px-40
+        lg:px-40
+        px-32
         text-xs 
         lg:text-sm
         rounded-full 
         font-semibold
         bg-red
         hover:bg-rose-600
-        mx-2"
+        mx-2
+       "
             >
               Continue
             </button>

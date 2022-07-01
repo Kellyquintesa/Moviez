@@ -8,7 +8,7 @@ import SocialMedia from "./components/SocialMedia";
 
 export default function Home() {
   return (
-    <div className=" bg-navy lg:pb-14 lg:h-full h-screen  ">
+    <div className=" bg-navy lg:pb-14 lg:h-full h-full  ">
       <div
         className="
       container 
@@ -16,7 +16,7 @@ export default function Home() {
       mx-auto 
       lg:h-screen 
       md:h-screen 
-      h-full 
+      h-full
       w-full  
       text-slate-50 
       p-10 
