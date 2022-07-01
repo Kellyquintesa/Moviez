@@ -14,7 +14,7 @@ function Movie({ movie }) {
     bg-navy 
     h-full
     pt-6
-    lg:h-screen
+    lg:h-full
     pb-20
        
     "

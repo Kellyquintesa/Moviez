@@ -37,7 +37,7 @@ export default function forgotPassword() {
         </div>
         <br />
         <div className="pt-48">
-          <Link href="/successResetPassword">
+          <Link href="/createPassword">
             <button
               className=" 
         py-3 

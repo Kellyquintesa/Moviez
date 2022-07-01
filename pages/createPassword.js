@@ -52,7 +52,7 @@ export default function createPassword() {
         </div>
         <br />
 
-        <Link href="/createPassword">
+        <Link href="/successResetPassword">
           <button
             className=" 
         py-3 
