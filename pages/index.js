@@ -56,7 +56,7 @@ export default function Home() {
         <p className="text-xs lg:text-sm ">
           Already have an account?
           <Link href="/signIn">
-            <button className="text-red pb-10"> Sign in</button>
+            <button className="text-red pb-10 ml-2"> Sign in</button>
           </Link>
         </p>
       </div>

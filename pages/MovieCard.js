@@ -1,32 +1,24 @@
 import Image from "next/dist/client/image";
 import Link from "next/link";
 
-export default function MovieCard({ movie }) {
+const MovieCard = ({ movie }) => {
   return (
-    <Link href={`/movie/${movie.id}`}>
-      <div
-        className="
-  text-white
-  cursor.pointer 
-  shadow-sm
-  rounded-3xl
-  bg-input
-  lg:max-w-2xl
-  lg:text-center
-  text-center
-   "
-      >
+    <Link href={`/movie/${movie?.id}`} passHref>
+      <div className="bg-white shadow-sm rounded-md cursor-pointer">
         <Image
-          src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
-          width={450}
-          height={700}
-          alt="poster"
-          className="rounded-t-2xl"
+          src={`https://image.tmdb.org/t/p/w500${movie?.poster_path}`}
+          width={700}
+          height={800}
+          className="rounded-t-md"
+          alt={movie?.title}
         />
-        <div className=" py-2 text-center">
-          <p className="font-bold mb-2 ">{movie.title}</p>
+        <div className="px-6 py-2">
+          <div className="font-bold text-xl mb-1">{movie?.title}</div>
+          <p className="text-gray-700 text-base mb-1">{movie?.release_date}</p>
         </div>
       </div>
     </Link>
   );
-}
+};
+
+export default MovieCard;

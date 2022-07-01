@@ -19,7 +19,7 @@ export default function PopularMovies({ movies }) {
       md:grid-cols-4 
       lg:grid-cols-5"
       >
-        {movies.map((movie) => (
+        {movies?.map((movie) => (
           <MovieCard movie={movie} key={movie.id} />
         ))}
       </div>
