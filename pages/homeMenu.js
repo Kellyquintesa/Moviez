@@ -13,7 +13,8 @@ export default function HomeMenu({ movies }) {
     bg-navy 
     w-full 
     h-full
-    lg:h-[240vh] 
+    lg:max-h-full
+    lg:pb-20
     md:h-full"
     >
       <div
